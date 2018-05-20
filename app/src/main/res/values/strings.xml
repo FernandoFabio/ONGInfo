@@ -16,4 +16,5 @@
     <string name="email">Email</string>
     <string name="nome">Nome</string>
     <string name="logo">Logo</string>
+    <string name="title_activity_perfil_ongs">PerfilOngsActivity</string>
 </resources>

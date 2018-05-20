@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginPessoaActivity">
+    tools:context=".Activity.LoginPessoaActivity">
 
     <EditText
-        android:id="@+id/etxtloginpessoa"
+        android:id="@+id/etxtloginemailpessoa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
@@ -19,7 +19,7 @@
         android:ems="10"
         android:hint="@string/login"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/etxtcadsenhapessoa"
+        app:layout_constraintBottom_toTopOf="@+id/etxtloginsenhapessoa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.35"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
         app:layout_constraintVertical_bias="0.961" />
 
     <EditText
-        android:id="@+id/etxtcadsenhapessoa"
+        android:id="@+id/etxtloginsenhapessoa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -59,7 +59,7 @@
         app:layout_constraintEnd_toStartOf="@+id/btnnewloginpessoa"
         app:layout_constraintHorizontal_bias="0.32"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etxtcadsenhapessoa" />
+        app:layout_constraintTop_toBottomOf="@+id/etxtloginsenhapessoa" />
 
     <Button
         android:id="@+id/btnnewloginpessoa"
@@ -72,7 +72,7 @@
         android:text="@string/primeiro_acesso"
         app:layout_constraintBottom_toTopOf="@+id/btnlogarpessoa"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etxtcadsenhapessoa"
+        app:layout_constraintTop_toBottomOf="@+id/etxtloginsenhapessoa"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView

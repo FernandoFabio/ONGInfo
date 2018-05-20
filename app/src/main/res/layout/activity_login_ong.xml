@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginOngActivity">
+    tools:context=".Activity.LoginOngActivity">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/etxtloginong"
+        android:id="@+id/etxtloginemailong"
         android:layout_width="wrap_content"
         android:layout_height="42dp"
         android:layout_marginBottom="8dp"
@@ -35,14 +35,14 @@
         android:ems="10"
         android:hint="@string/login"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/etxtsenhaong"
+        app:layout_constraintBottom_toTopOf="@+id/etxtloginsenhaong"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.35"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <EditText
-        android:id="@+id/etxtsenhaong"
+        android:id="@+id/etxtloginsenhaong"
         android:layout_width="wrap_content"
         android:layout_height="42dp"
         android:layout_marginBottom="48dp"
@@ -84,7 +84,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toEndOf="@+id/btnsenhaperdidaong"
-        app:layout_constraintTop_toBottomOf="@+id/etxtsenhaong" />
+        app:layout_constraintTop_toBottomOf="@+id/etxtloginsenhaong" />
 
     <Button
         android:id="@+id/btnlogarong"
