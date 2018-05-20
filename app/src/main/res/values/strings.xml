@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">ONGInfo</string>
     <string name="title_activity_start_perfil">Selecione o perfil</string>
+    <string name="listar_ongs">Listar ONG\'s</string>
+    <string name="ong">ONG</string>
+    <string name="pessoa">Pessoa</string>
+    <string name="entrar">Entrar</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="esqueceu_senha">Esqueceu a senha?</string>
+    <string name="primeiro_acesso">Primeiro acesso</string>
+    <string name="nome_ong">Nome da ONG</string>
+    <string name="confirmar_senha">Confirmar senha</string>
+    <string name="email">Email</string>
+    <string name="nome">Nome</string>
+    <string name="logo">Logo</string>
 </resources>

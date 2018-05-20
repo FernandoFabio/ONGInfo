@@ -17,7 +17,8 @@ public class StartPerfilActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_perfil);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+       /* Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -27,12 +28,12 @@ public class StartPerfilActivity extends AppCompatActivity {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
     }
 
     public void nextTela(View view)
     {
-        Intent it = new Intent(StartPerfilActivity.this,  LoginActivity.class);
+        Intent it = new Intent(StartPerfilActivity.this,  LoginPessoaActivity.class);
         startActivity(it);
     }
 }
